@@ -4,7 +4,7 @@ I deployed the suggested honeypots from the assignment which were the gcloud **m
 
 I came across a number of issues when trying to install the gcloud CLI.
 
-After following the instructions on the assignment, my terminal still wouldn't recognize the "gcloud" command. I did some research and after some time found out that the gcloud CLI isn't compatible with [http://ohmyz.sh/](oh my zsh). I uninstalled oh-my-zsh and was finally able to use the gcloud command.
+After following the instructions on the assignment, my terminal still wouldn't recognize the "gcloud" command. I did some research and after some time found out that the gcloud CLI isn't compatible with [oh my zsh](http://ohmyz.sh/). I uninstalled oh-my-zsh and was finally able to use the gcloud command.
 
 After installing the gcloud VM's it was pretty straight-forward from there. I was able to set up the two honeypot instances, but only the **mhn-admin** instance would load the MHN user interface via the external IP. The **mhn-honeypot1** instance was unable to connect to the external IP for some reason.
 
