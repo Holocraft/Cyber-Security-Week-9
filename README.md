@@ -13,3 +13,5 @@ I checked all of the setup steps and compared the config from both honeypots and
 I also had some trouble with exporting the **session.json** file to my local machine. I used the command referenced in the assignment but it kept giving me a _permission denied_ error. It turns out that I had to use the _glcoud auth login_ command before I could secure copy the file from the VM to my local.
 
 I let the honeypot run for 2 days and received 56 attacks. I didn't get any malware samples.
+
+![](https://raw.githubusercontent.com/Holocraft/Cyber-Security-Week-9/master/honeypot-attacks.png)
